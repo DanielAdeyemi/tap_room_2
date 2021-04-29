@@ -8,7 +8,7 @@
 <img alt="React" width="30px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
 
 
-<div style="text-align:center"><img src="https://chilledmagazine.com/wp-content/uploads/2019/10/Taproom-No-307.jpg" alt="Tap room picture image" width="300"/></div>
+<div style="text-align:center"><img src="https://chilledmagazine.com/wp-content/uploads/2019/10/Taproom-No-307.jpg" alt="Tap room picture image" /></div>
 
 ## <div align="center"> 🚩 *Description*:</div>    
 
