@@ -1,8 +1,23 @@
-# Getting Started with Create React App
+## <div align="center">Tap Room </div>
+#### <div align="center">📚 *Epicodus Independent Project # 13  (Week 2 of React)  4/26-.../2021* </div> 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+***<p align="right">By Daniel Adeyemi***</p>   
+<p align="center"> 
 
-## Available Scripts
+<img alt="JavaScript" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
+<img alt="React" width="30px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
+
+
+<div style="text-align:center"><img src="https://chilledmagazine.com/wp-content/uploads/2019/10/Taproom-No-307.jpg" alt="Tap room picture image" width="300"/></div>
+
+## <div align="center"> 🚩 *Description*:</div>    
+
+***A React app to track kegs of beer in the beer place***
+
+## <div align="center">Component diagram</div>
+<img src="src/img/TapRoom.png" alt="Component diagram">
+
+<!-- ## Available Scripts
 
 In the project directory, you can run:
 
@@ -67,4 +82,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
