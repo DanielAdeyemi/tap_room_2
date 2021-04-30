@@ -9,7 +9,6 @@ export default class KegControl extends React.Component {
     this.state = {
       formVisibleOnPage: false,
       mainKegList: [],
-      left: null,
       selectedKeg: null
     };
   }

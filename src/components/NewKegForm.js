@@ -10,7 +10,7 @@ export default function NewKegForm(props) {
       kegBrand: event.target.kegBrand.value,
       kegAlcohol: event.target.kegAlcohol.value,
       kegPrice: event.target.kegPrice.value,
-      kegLeftover: 124,
+      kegLeftover: 5,
       id: v4()
     });
   }
