@@ -14,7 +14,8 @@ export default function Keg(props) {
     kegName: PropTypes.string,
     kegBrand: PropTypes.string,
     kegPrice: PropTypes.number,
-    kegAlchohol: PropTypes.number,
+    kegAlcohol: PropTypes.number,
+    kegLeftover: PropTypes.number,
     id: PropTypes.string,
     whenKegClicked: PropTypes.func
   }
