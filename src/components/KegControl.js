@@ -1,4 +1,5 @@
 import React from "react";
+import KegDetail from "./KegDetail";
 import KegList from "./KegList";
 import NewKegForm from "./NewKegForm";
 
@@ -33,15 +34,27 @@ export default class KegControl extends React.Component {
     });
   };
 
+  handleChangingSelectedKeg = (id) => {
+    const selectedKeg = 
+      this.state.mainKegList.filter((keg) => keg.id === id)[0];
+      this.setState({ selectedKeg: selectedKeg});
+  }
+
   render() {
     let currentlyVisibleState = null;
     let buttonText = null;
-    if(this.state.formVisibleOnPage) {
+    if (this.state.selectedKeg !== null) {
+      currentlyVisibleState = 
+      <KegDetail
+        keg={this.state.selectedKeg}
+      />
+      buttonText = "Return to the Keg List";
+    }else if(this.state.formVisibleOnPage) {
       currentlyVisibleState = 
       <NewKegForm
         onNewKegCreation={this.handleAddingNewKegToList}
       />;
-      buttonText = "Add Keg";
+      buttonText = "Return to the keg list";
     } else {
     currentlyVisibleState = 
       <KegList
