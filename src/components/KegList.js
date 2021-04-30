@@ -12,6 +12,7 @@ export default function KegList(props) {
           kegBrand={keg.kegBrand}
           kegPrice={keg.kegPrice}
           kegAlcohol={keg.kegAlcohol}
+          kegLeftover={keg.kegLeftover}
         />
       )}
     </>
