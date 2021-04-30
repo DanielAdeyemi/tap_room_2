@@ -4,7 +4,9 @@ export default class KegControl extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      mainKegList = []
+      formVisibleOnPage: false,
+      mainKegList = [],
+      selectedKeg = null
     };
   }
 
