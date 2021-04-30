@@ -9,6 +9,7 @@ export default class KegControl extends React.Component {
     this.state = {
       formVisibleOnPage: false,
       mainKegList: [],
+      left: null,
       selectedKeg: null
     };
   }
@@ -25,6 +26,14 @@ export default class KegControl extends React.Component {
       }));
     }
   };
+
+  handleBuyPint = (id) => {
+    const selectedKeg = this.state.mainKegList.filter((keg) =>keg.id === id)[0];
+    if(selectedKeg.kegLeftover >= 1) {
+      selectedKeg.kegLeftover --;
+    }
+    this.setState({ selectedKeg: selectedKeg });
+  }
 
   handleAddingNewKegToList = (newKeg) => {
     const newMainKegList = this.state.mainKegList.concat(newKeg);
@@ -60,6 +69,7 @@ export default class KegControl extends React.Component {
       <KegList
         kegList={this.state.mainKegList}
         onKegSelection={this.handleChangingSelectedKeg}
+        buyPint={this.handleBuyPint}
       />;
       buttonText = "Add Keg";
     }

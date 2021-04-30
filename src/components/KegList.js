@@ -15,8 +15,9 @@ export default function KegList(props) {
           kegLeftover={keg.kegLeftover}
           id={keg.id}
           key={keg.id}
+          whenBuyPintClicked={props.buyPint}
         />
-      )}
+        )}
     </>
   );
 }
@@ -24,5 +25,6 @@ export default function KegList(props) {
 KegList.propTypes = {
   kegList: PropTypes.array,
   onKegSelection: PropTypes.func,
+  buyPint: PropTypes.func,
   keg: PropTypes.object
 };
