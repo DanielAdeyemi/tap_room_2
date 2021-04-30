@@ -1,5 +1,6 @@
 import React from "react";
 import KegList from "./KegList";
+import NewKegForm from "./NewKegForm";
 
 export default class KegControl extends React.Component {
   constructor(props) {
@@ -34,14 +35,25 @@ export default class KegControl extends React.Component {
 
   render() {
     let currentlyVisibleState = null;
+    let buttonText = null;
+    if(this.state.formVisibleOnPage) {
+      currentlyVisibleState = 
+      <NewKegForm
+        onNewKegCreation={this.handleAddingNewKegToList}
+      />;
+      buttonText = "Add Keg";
+    } else {
     currentlyVisibleState = 
       <KegList
         kegList={this.state.mainKegList}
         onKegSelection={this.handleChangingSelectedKeg}
-      />
+      />;
+      buttonText = "Add Keg";
+    }
     return(
       <>
         {currentlyVisibleState}
+        <button onClick={this.handleClick}>{buttonText}</button>
       </>
     );
   }
