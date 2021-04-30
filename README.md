@@ -1,5 +1,5 @@
 ## <div align="center">Tap Room </div>
-#### <div align="center">📚 *Epicodus Independent Project # 13  (Week 2 of React)  4/26-.../2021* </div> 
+#### <div align="center">📚 *Epicodus Independent Project # 13  (Week 2 of React)  4/26-30/2021* </div> 
 
 ***<p align="right">By Daniel Adeyemi***</p>   
 <p align="center"> 
@@ -8,78 +8,70 @@
 <img alt="React" width="30px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
 
 
-<div style="text-align:center"><img src="https://chilledmagazine.com/wp-content/uploads/2019/10/Taproom-No-307.jpg" alt="Tap room picture image" hight="50px"/></div>
+<div style="text-align:center"><img src="https://chilledmagazine.com/wp-content/uploads/2019/10/Taproom-No-307.jpg" alt="Tap room picture image" width="350px"/></div>
 
 ## <div align="center"> 🚩 *Description*:</div>    
 
 ***A React app to track kegs of beer in the beer place***
 
-## <div align="center">  xkjbklxComponent diagram</div>
-<img src="src/img/TapRoom.png" alt="Component diagram">
+## <div align="center"> 📝 Component diagram</div>
+<details>
+<summary>Click here to view diagram</summary>
+<img src="src/img/TapRoom.png" alt="Component diagram" width="auto">
+</details>
 
-<!-- ## Available Scripts
+## <div align="center"> 🔧 *Setup/Installation instructions:*
+**To run this project locally you will need node.js and Code Editor *(like VS Code)***
+<details>
+<summary> 🌐 From the web:</summary>
 
-In the project directory, you can run:
+* Go to my GitHub repository, using following [URL](https://github.com/DanielAdeyemi/tap_room.git).
+* At the top of the repository, click <img src="https://i.imgur.com/Ej9Dphm.png" alt="Code Button" height="20" align="center" /> then select "Download ZIP".
 
-### `npm start`
+<img src="https://i.imgur.com/tZKvGne.gif" alt="download zip gif" height="200"/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Unzip the file, navigate to the `src` directory to check code
+</details>
+<details>
+<summary> ⚙️ From the terminal:</summary> 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* Clone my repository from GitHub using `git clone https://github.com/DanielAdeyemi/tap_room.git` in your terminal or GitBash
+* Navigate to the downloaded folder using ***cd*** command
+* Execute **code .** command in your terminal and it will open all source code in your code editor.  
+</details>
 
-### `npm test`
+## <div align="center"> 🧰 *Setup Options:*   
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`npm install`   
+This will insure you have all necessary files to run the program   
 
-### `npm run build`
+`npm start`   
+Runs the app in the development mode.    
+Open http://localhost:3000 to view in a browser   
+Page will reload automatically when you save your changes   
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`npm run build`   
+Builds the app for production to the *build* folder   
+It correctly bundles React in production mode and optimizes the build for the best performance.   
+The build is minified and the filenames include the hashes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+⚠️ *Note: make sure you are inside tap_room directory*
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## <div align="center"> 🛠️ *Technologies used:*
+* React
+* JSX
+* JavaScript ES6
 
-### `npm run eject`
+## <div align="center"> 🐛 *Known bugs:*
+No known bugs at the moment. Application doesn't have any style and was built to demonsrate understanding of React fundamentals
+## <div align="center"> 🌟 *Improvement opportunities:*
+* add style
+* implement full CRUD functionality
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+##  <div align="center"> 📬 Contact Information
+#### For any questions *[email author](mailto:adeyemidany+github@gmail.com?subject=[GitHub])*
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## <div align="center"> 📘 *License and copyright:*
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
+> ***© Daniel Adeyemi, 2021***  
+> ⚖️ *[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)*

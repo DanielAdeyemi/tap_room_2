@@ -9,17 +9,20 @@ export default function KegDetail(props) {
   } else if (keg.kegLeftover <= 20) {
     message = "*Low Stock!*";
   }
-  return(
-    <>
-      <h2>About {keg.kegName}</h2>
-      <h3>Brand: {keg.kegBrand}</h3>
-      <p>Contains: {keg.kegAlcohol}% of Alcohol</p>
-      <p><b>Price for pint: </b> ${keg.kegPrice}</p>
-      <p>Amount left(in pints){message}: {keg.kegLeftover}</p>
-    </>
-  );
+  return (
+		<>
+			<h2>About {keg.kegName}</h2>
+			<h3>Brand: {keg.kegBrand}</h3>
+			<p>Contains: {keg.kegAlcohol}% of Alcohol</p>
+			<p>
+				<b>Price for pint: </b> ${keg.kegPrice}
+			</p>
+			<p><b><i>{message}</i></b> Amount left(in pints): {keg.kegLeftover}</p>
+		</>
+	);
 }
 
 KegDetail.propTypes = {
-  keg: PropTypes.object
+  keg: PropTypes.object, 
+  message: PropTypes.string
 }
