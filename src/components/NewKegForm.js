@@ -8,9 +8,9 @@ export default function NewKegForm(props) {
     props.onNewKegCreation({
       kegName: event.target.kegName.value,
       kegBrand: event.target.kegBrand.value,
-      kegAlcohol: event.target.kegAlcohol.value,
-      kegPrice: event.target.kegPrice.value,
-      kegLeftover: 124,
+      kegAlcohol: parseInt(event.target.kegAlcohol.value),
+      kegPrice: parseInt(event.target.kegPrice.value),
+      kegLeftover: 4,
       id: v4()
     });
   }
