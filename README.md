@@ -1,5 +1,5 @@
 ## <div align="center">Tap Room </div>
-#### <div align="center">📚 *Epicodus Independent Project # 13  (Week 2 of React)  4/26-30/2021* </div> 
+#### <div align="center">📚 *Epicodus Independent Project # 14  (Week 3 of React)  4/30-5/6/2021* </div> 
 
 ***<p align="right">By Daniel Adeyemi***</p>   
 <p align="center"> 
