@@ -1,4 +1,4 @@
-## <div align="center">Tap Room </div>
+## <div align="center">Tap Room (v2.0)</div>
 #### <div align="center">📚 *Epicodus Independent Project # 14  (Week 3 of React)  4/30-5/6/2021* </div> 
 
 ***<p align="right">By Daniel Adeyemi***</p>   
@@ -12,9 +12,12 @@
 
 ## <div align="center"> 🚩 *Description*:</div>    
 
-***A React app to track kegs of beer in the beer place***
+***An updated React-Redux app to track kegs of beer in the beer place***
 
-## <div align="center"> 📝 Component diagram</div>
+# STILL IN DEVELOPMENT
+
+
+<!-- ## <div align="center"> 📝 Component diagram</div>
 <details>
 <summary>Click here to view diagram</summary>
 <img src="src/img/TapRoom.png" alt="Component diagram" width="auto">
@@ -66,7 +69,7 @@ The build is minified and the filenames include the hashes.
 No known bugs at the moment. Application doesn't have any style and was built to demonsrate understanding of React fundamentals
 ## <div align="center"> 🌟 *Improvement opportunities:*
 * add style
-* implement full CRUD functionality
+* implement full CRUD functionality -->
 
 ##  <div align="center"> 📬 Contact Information
 #### For any questions *[email author](mailto:adeyemidany+github@gmail.com?subject=[GitHub])*
