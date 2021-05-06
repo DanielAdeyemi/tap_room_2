@@ -4,8 +4,14 @@ export const toggleForm = () => ({
   type: c.TOGGLE_FORM
 });
 
-export const checkoutKeg = () => ({
-  type: c.CHECKOUT_KEG
+export const checkoutKeg = (id) => ({
+  type: c.CHECKOUT_KEG,
+	id: id
+});
+
+export const checkinKeg = (id) => ({
+	type: c.CHECKIN_KEG,
+	id: id
 });
 
 export const addKeg = (keg) => {

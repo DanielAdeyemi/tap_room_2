@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-export default function KegDetail(props) {
+const KegDetail = (props) => {
   const { keg } = props;
   let { message } = props;
   if(keg.kegLeftover <= 0) {
@@ -26,3 +26,5 @@ KegDetail.propTypes = {
   keg: PropTypes.object, 
   message: PropTypes.string
 }
+
+export default KegDetail;

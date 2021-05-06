@@ -6,7 +6,7 @@ import checkoutKegReducer from './checkout-keg-reducer';
 const rootReducer = combineReducers({
   formVisibleOnPage: formVisibleReducer,
   mainKegList: kegListReducer,
-  checkoutKeg: checkoutKegReducer
+  selectedKeg: checkoutKegReducer
 });
 
 export default rootReducer;
