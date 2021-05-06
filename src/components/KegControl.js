@@ -11,7 +11,7 @@ export default class KegControl extends React.Component {
   handleClick = () => {
     const { dispatch } = this.props;
     if(this.props.selectedKeg !== null) {
-      const action1 = a.checkoutKeg(null);
+      const action1 = a.checkoutKeg();
       dispatch(action1);
     } else {
       const action = a.toggleForm();
