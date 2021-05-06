@@ -8,6 +8,12 @@ describe('keg actions', () => {
     });
   });
 
+  it('make selected keg reset to null', () => {
+    expect(a.checkoutKeg()).toEqual({
+      type: c.CHECKOUT_KEG
+    });
+  });
+
   it('addKeg should create ADD_KEG action', () => {
     expect(
 			a.addKeg({

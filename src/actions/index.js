@@ -4,6 +4,8 @@ export const toggleForm = () => ({
   type: c.TOGGLE_FORM
 });
 
+export const checkoutKeg = () => ({});
+
 export const addKeg = (keg) => {
   const { kegName, kegBrand, kegAlcohol, kegPrice, kegLeftover, id } = keg;
   return {
