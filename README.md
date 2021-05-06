@@ -6,6 +6,7 @@
 
 <img alt="JavaScript" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
 <img alt="React" width="30px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
+<img alt="React" width="30px" src="https://raw.githubusercontent.com/DanielAdeyemi/devicon/master/icons/redux/redux-original.svg" />
 
 
 <div style="text-align:center"><img src="https://chilledmagazine.com/wp-content/uploads/2019/10/Taproom-No-307.jpg" alt="Tap room picture image" width="350px"/></div>
@@ -14,10 +15,7 @@
 
 ***An updated React-Redux app to track kegs of beer in the beer place***
 
-# STILL IN DEVELOPMENT
-
-
-<!-- ## <div align="center"> 📝 Component diagram</div>
+## <div align="center"> 📝 Component diagram</div>
 <details>
 <summary>Click here to view diagram</summary>
 <img src="src/img/TapRoom.png" alt="Component diagram" width="auto">
@@ -28,7 +26,7 @@
 <details>
 <summary> 🌐 From the web:</summary>
 
-* Go to my GitHub repository, using following [URL](https://github.com/DanielAdeyemi/tap_room.git).
+* Go to my GitHub repository, using following [URL](https://github.com/DanielAdeyemi/tap_room_2.git).
 * At the top of the repository, click <img src="https://i.imgur.com/Ej9Dphm.png" alt="Code Button" height="20" align="center" /> then select "Download ZIP".
 
 <img src="https://i.imgur.com/tZKvGne.gif" alt="download zip gif" height="200"/>
@@ -38,10 +36,14 @@
 <details>
 <summary> ⚙️ From the terminal:</summary> 
 
-* Clone my repository from GitHub using `git clone https://github.com/DanielAdeyemi/tap_room.git` in your terminal or GitBash
+* Clone my repository from GitHub using `git clone https://github.com/DanielAdeyemi/tap_room_2.git` in your terminal or GitBash
 * Navigate to the downloaded folder using ***cd*** command
 * Execute **code .** command in your terminal and it will open all source code in your code editor.  
 </details>
+
+## <div align="center"> ✅ *Running tests from your terminal using Jest and webpack:*
+* make sure you have Jest installed, if not, use [this link](https://www.learnhowtoprogram.com/intermediate-javascript/test-driven-development-and-environments-with-javascript/setting-up-jest) to install it on your machine **(also make sure you are in head directory of this project)**
+* now from main directory run `$ npm run test` to check if tests from `__test__` directory pass or fail.
 
 ## <div align="center"> 🧰 *Setup Options:*   
 
@@ -64,12 +66,14 @@ The build is minified and the filenames include the hashes.
 * React
 * JSX
 * JavaScript ES6
+* Jest
+* Redux
 
 ## <div align="center"> 🐛 *Known bugs:*
-No known bugs at the moment. Application doesn't have any style and was built to demonsrate understanding of React fundamentals
+No known bugs at the moment. Application doesn't have any style and was built to demonsrate understanding of Redux implementation in React
 ## <div align="center"> 🌟 *Improvement opportunities:*
 * add style
-* implement full CRUD functionality -->
+* implement full CRUD functionality
 
 ##  <div align="center"> 📬 Contact Information
 #### For any questions *[email author](mailto:adeyemidany+github@gmail.com?subject=[GitHub])*
