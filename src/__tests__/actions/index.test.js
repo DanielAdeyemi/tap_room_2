@@ -7,4 +7,25 @@ describe('keg actions', () => {
       type: c.TOGGLE_FORM
     });
   });
+
+  it('addKeg should create ADD_KEG action', () => {
+    expect(
+			a.addKeg({
+				kegName: "Guiness",
+				kegBrand: "Stout",
+				kegAlcohol: 8,
+				kegPrice: 5,
+				kegLeftover: 124,
+				id: 1
+			})
+		).toEqual({
+			type: c.ADD_KEG,
+			kegName: "Guiness",
+			kegBrand: "Stout",
+			kegAlcohol: 8,
+			kegPrice: 5,
+			kegLeftover: 124,
+			id: 1
+		});
+  });
 });
